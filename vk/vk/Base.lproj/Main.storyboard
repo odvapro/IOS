@@ -196,6 +196,9 @@
                                         <rect key="frame" x="32" y="747" width="351" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="Size Y_ Regular"/>
+                                        <connections>
+                                            <segue destination="fER-hH-yc4" kind="show" id="qYV-5N-6tU"/>
+                                        </connections>
                                     </button>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kVs-gB-0LL">
                                         <rect key="frame" x="20" y="488" width="374" height="64"/>
@@ -364,7 +367,7 @@
                                                 <color key="textColor" red="0.42745098040000001" green="0.47058823529999999" blue="0.52156862749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Сколько нужно собрать?" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OeB-Z3-5oD">
+                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Сколько нужно собрать?" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OeB-Z3-5oD">
                                                 <rect key="frame" x="0.0" y="29" width="374" height="34"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                                 <color key="backgroundColor" red="0.94901960780000005" green="0.95294117649999999" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -401,6 +404,9 @@
                                         <rect key="frame" x="32" y="747" width="351" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="Size Y_ Regular"/>
+                                        <connections>
+                                            <segue destination="QGs-SJ-Z4W" kind="show" id="CVh-9I-KX5"/>
+                                        </connections>
                                     </button>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6BB-x4-Cge">
                                         <rect key="frame" x="20" y="488" width="374" height="64"/>
@@ -689,6 +695,7 @@
                         <viewLayoutGuide key="safeArea" id="ee0-BY-mhu"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="jkj-yn-3Sj"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5X4-rb-Sdj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -758,7 +765,7 @@
                                         <rect key="frame" x="15" y="364" width="384" height="410"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <mutableString key="text">Привет-привет, добряш!
+                                        <string key="text">Привет-привет, добряш!
 
 Я создал это событие, чтобы показать какие у меня прекрасные добряши и буду счастлив, если получится вдохновить кого-нибудь хотя бы на маленький перевод в пользу фонда Юна. 
 
@@ -768,7 +775,7 @@
 
 ◾ А 10 000 рублей позволят провести курс занятий с кинологом по социализации сложной собаки. Чтобы она легче нашла свой дом.
 
-В благотворительности не бывает маленьких сумм, поэтому если вы хотите помочь, то переведите любую сумму, будь-то 10 рублей или 1000 💚</mutableString>
+В благотворительности не бывает маленьких сумм, поэтому если вы хотите помочь, то переведите любую сумму, будь-то 10 рублей или 1000 💚</string>
                                         <color key="textColor" systemColor="labelColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1051,6 +1058,9 @@
                                 <rect key="frame" x="32" y="747" width="351" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Size Y_ Regular"/>
+                                <connections>
+                                    <segue destination="uuZ-CE-xg0" kind="show" id="acW-pG-wYv"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qHJ-wq-yXG"/>
@@ -1229,7 +1239,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="Size Y_ Regular"/>
                                         <connections>
-                                            <segue destination="nTX-uj-g7f" kind="show" id="siB-Ua-PSm"/>
+                                            <segue destination="nTX-uj-g7f" kind="show" id="Q3C-wm-OYE"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -1439,14 +1449,17 @@
                         <viewLayoutGuide key="safeArea" id="giL-UG-55p"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <toolbarItems>
+                        <barButtonItem title="Item" image="dismiss_24" id="ujq-T1-oMg"/>
+                    </toolbarItems>
                     <navigationItem key="navigationItem" title="Матвей" id="YlL-Hy-Xsq">
-                        <barButtonItem key="leftBarButtonItem" title="Item" image="dismiss_24" id="ujq-T1-oMg"/>
                         <barButtonItem key="rightBarButtonItem" title="Item" image="send_sign_28" id="q3W-hz-3z7">
                             <connections>
                                 <segue destination="H4L-mS-R50" kind="show" id="Qho-hb-Sjr"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O59-fN-1l9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1613,7 +1626,7 @@
                                 <rect key="frame" x="15" y="364" width="384" height="410"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">Привет-привет, добряш!
+                                <string key="text">Привет-привет, добряш!
 
 Я создал это событие, чтобы показать какие у меня прекрасные добряши и буду счастлив, если получится вдохновить кого-нибудь хотя бы на маленький перевод в пользу фонда Юна. 
 
@@ -1623,7 +1636,7 @@
 
 ◾ А 10 000 рублей позволят провести курс занятий с кинологом по социализации сложной собаки. Чтобы она легче нашла свой дом.
 
-В благотворительности не бывает маленьких сумм, поэтому если вы хотите помочь, то переведите любую сумму, будь-то 10 рублей или 1000 💚</mutableString>
+В благотворительности не бывает маленьких сумм, поэтому если вы хотите помочь, то переведите любую сумму, будь-то 10 рублей или 1000 💚</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1639,6 +1652,10 @@
             <point key="canvasLocation" x="5834.7826086956529" y="-632.14285714285711"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="gp9-pF-AUV"/>
+        <segue reference="3PE-h1-w3T"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Avatar" width="44" height="44"/>
         <image name="Cover" width="353" height="142"/>
